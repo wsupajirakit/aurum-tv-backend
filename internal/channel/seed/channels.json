@@ -1,0 +1,371 @@
+[
+  {
+    "name": "5HD",
+    "number": 5,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "primary",
+        "label": "primary",
+        "url": "https://example.com/streams/5hd/primary.m3u8",
+        "priority": 0
+      }
+    ],
+    "order": 0
+  },
+  {
+    "name": "7HD",
+    "number": 7,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/7hd/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/7hd/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/7hd/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 1
+  },
+  {
+    "name": "3HD",
+    "number": 3,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "ch3plus",
+        "label": "ch3plus signed",
+        "resolver": "ch3plus",
+        "url": "",
+        "priority": 0
+      },
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/3hd/mirror-3.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/3hd/mirror-2.m3u8",
+        "priority": 2
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/3hd/mirror-1.m3u8",
+        "priority": 3
+      }
+    ],
+    "order": 2
+  },
+  {
+    "name": "9 MCOT HD",
+    "number": 9,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/9-mcot-hd/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/9-mcot-hd/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/9-mcot-hd/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 3
+  },
+  {
+    "name": "MONO 29",
+    "number": 29,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-1",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/mono-29/mirror-1.m3u8",
+        "priority": 0
+      }
+    ],
+    "order": 4
+  },
+  {
+    "name": "ไทยรัฐทีวี 32",
+    "number": 32,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/32/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/32/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/32/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 5
+  },
+  {
+    "name": "One 31",
+    "number": 31,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/one-31/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/one-31/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/one-31/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 6
+  },
+  {
+    "name": "Amarin TV 34",
+    "number": 34,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/amarin-tv-34/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/amarin-tv-34/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/amarin-tv-34/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 7
+  },
+  {
+    "name": "Workpoint 23",
+    "number": 23,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/workpoint-23/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/workpoint-23/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/workpoint-23/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 8
+  },
+  {
+    "name": "GMM 25",
+    "number": 25,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/gmm-25/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/gmm-25/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/gmm-25/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 9
+  },
+  {
+    "name": "Channel 8",
+    "number": 8,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/channel-8/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/channel-8/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/channel-8/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 10
+  },
+  {
+    "name": "True4U 24",
+    "number": 24,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/true4u-24/mirror-2.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/true4u-24/mirror-1.m3u8",
+        "priority": 1
+      }
+    ],
+    "order": 11
+  },
+  {
+    "name": "Thai PBS",
+    "number": 3,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/thai-pbs/mirror-2.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/thai-pbs/mirror-1.m3u8",
+        "priority": 1
+      }
+    ],
+    "order": 12
+  },
+  {
+    "name": "NBT 2HD",
+    "number": 2,
+    "group": "ฟรีทีวี",
+    "sources": [
+      {
+        "id": "primary",
+        "label": "primary",
+        "url": "https://example.com/streams/nbt-2hd/primary.m3u8",
+        "priority": 0
+      }
+    ],
+    "order": 13
+  },
+  {
+    "name": "Nation TV 22",
+    "number": 22,
+    "group": "ข่าว",
+    "sources": [
+      {
+        "id": "mirror-3",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/nation-tv-22/mirror-3.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/nation-tv-22/mirror-2.m3u8",
+        "priority": 1
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/nation-tv-22/mirror-1.m3u8",
+        "priority": 2
+      }
+    ],
+    "order": 14
+  },
+  {
+    "name": "T Sports 7",
+    "number": 7,
+    "group": "กีฬา",
+    "sources": [
+      {
+        "id": "mirror-2",
+        "label": "mirror 576p",
+        "url": "https://example.com/streams/t-sports-7/mirror-2.m3u8",
+        "priority": 0
+      },
+      {
+        "id": "mirror-1",
+        "label": "mirror 240p",
+        "url": "https://example.com/streams/t-sports-7/mirror-1.m3u8",
+        "priority": 1
+      }
+    ],
+    "order": 15
+  }
+]

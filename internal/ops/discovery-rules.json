@@ -1,0 +1,12 @@
+{
+  "//": "Backup-source discovery rules (aurumctl discover-sources). match = regexp over an existing source url; template uses {1},{2}… for regexp groups and {n} for each number of range (span at most 50); label = label of a found source.",
+  "rules": [
+    {
+      "name": "live-as stream instances",
+      "match": "^(https://[^/]+/live-as/[A-Za-z0-9]+)-(\\d+)(/playlist\\.m3u8)$",
+      "template": "{1}-{n}{3}",
+      "range": [1, 5],
+      "label": "mirror"
+    }
+  ]
+}

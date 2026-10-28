@@ -1,0 +1,11 @@
+# local configuration and secrets
+.env
+ops.env
+
+# runtime data
+data/
+
+# build output
+bin/
+coverage.out
+*.log
